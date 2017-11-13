@@ -17,5 +17,15 @@ public class SetPosition : MonoBehaviour
     {
         //Se aumenta el valor de actualPosition en base al incremento
         actualPosition += increment;
+        //Si el resultado es menor a cero se corrige
+        if (actualPosition < 0)
+        {
+            actualPosition = 0;
+        }
+        //Si el resultado es menor al contenido del arreglo se corrige
+        else if (actualPosition > housePositions.Length - 1)
+        {
+            actualPosition = housePositions.Length - 1;
+        }
     } //Fin de ChangeTransform()
 } //Fin de ChangeTransform
