@@ -27,5 +27,13 @@ public class SetPosition : MonoBehaviour
         {
             actualPosition = housePositions.Length - 1;
         }
+        //Si esta dentro del rango se manda actualizarel transform
+        else
+        {
+            //Se actualiza la posicion del cuarto
+            hauntedHouse.transform.localPosition = new Vector3(housePositions[actualPosition].x, housePositions[actualPosition].y, housePositions[actualPosition].z);
+            //Se actualiza la rotacion del cuarto
+            hauntedHouse.transform.localEulerAngles = new Vector3(houseRotations[actualPosition].x, houseRotations[actualPosition].y, houseRotations[actualPosition].z);
+        } //Fin de if- else if - else
     } //Fin de ChangeTransform()
 } //Fin de ChangeTransform
