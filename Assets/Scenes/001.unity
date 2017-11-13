@@ -10736,7 +10736,6 @@ GameObject:
   - component: {fileID: 1758421795}
   - component: {fileID: 1758421794}
   - component: {fileID: 1758421793}
-  - component: {fileID: 1758421792}
   m_Layer: 0
   m_Name: P_Column_01 (3)
   m_TagString: Untagged
@@ -10758,18 +10757,6 @@ Transform:
   m_Father: {fileID: 457277523}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1758421792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114636657017344188, guid: 7964d448749f9eb418b84da6120853ce,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1758421790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &1758421793
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10968,7 +10955,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1827677832}
   - component: {fileID: 1827677834}
-  - component: {fileID: 1827677833}
   m_Layer: 0
   m_Name: ZombieAttack
   m_TagString: Untagged
@@ -11008,18 +10994,6 @@ Transform:
   m_Father: {fileID: 772582746}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -179.998}
---- !u!114 &1827677833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114604513172733336, guid: bb936fee2eb327940a5ed6d588eb1ec0,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1827677831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!111 &1827677834
 Animation:
   m_ObjectHideFlags: 0
