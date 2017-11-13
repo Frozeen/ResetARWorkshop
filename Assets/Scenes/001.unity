@@ -2654,6 +2654,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1827677833}
+        m_MethodName: ChangeTransform
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &376895669
@@ -11596,6 +11607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1827677832}
   - component: {fileID: 1827677834}
+  - component: {fileID: 1827677833}
   m_Layer: 0
   m_Name: ZombieAttack
   m_TagString: Untagged
@@ -11635,6 +11647,26 @@ Transform:
   m_Father: {fileID: 772582746}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -179.998}
+--- !u!114 &1827677833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1827677831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b93761e18244f8479d9a5e63e24f6a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  housePositions:
+  - {x: 0, y: -2.282, z: -0.768}
+  - {x: 0.1900074, y: -1.33, z: -0.768}
+  - {x: 0.1700038, y: -0.3299849, z: -0.7680155}
+  houseRotations:
+  - {x: -90.00001, y: 0, z: -179.998}
+  - {x: -118.023, y: 89.99999, z: -269.998}
+  - {x: -92.379, y: 89.99799, z: -269.996}
+  hauntedHouse: {fileID: 1827677831}
 --- !u!111 &1827677834
 Animation:
   m_ObjectHideFlags: 0
@@ -12175,6 +12207,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1610744014}
+        m_MethodName: ChangeTransform
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1827677833}
         m_MethodName: ChangeTransform
         m_Mode: 3
         m_Arguments:
